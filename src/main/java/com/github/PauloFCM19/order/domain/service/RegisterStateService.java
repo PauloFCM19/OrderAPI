@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.github.PauloFCM19.order.domain.exception.ManufacturerNotFindException;
-import com.github.PauloFCM19.order.domain.model.Manufacturer;
 import com.github.PauloFCM19.order.domain.model.State;
 import com.github.PauloFCM19.order.domain.repository.StateRepository;
 
