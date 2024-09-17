@@ -16,6 +16,7 @@ public class RegisterManufacturerService {
 	@Autowired
 	private ManufacturerRepository manufacturerRepository;
 	
+	@Transactional
 	public Manufacturer save(Manufacturer manufacturer) {
 		return manufacturerRepository.save(manufacturer);
 	}

@@ -7,6 +7,6 @@ import lombok.Setter;
 @Setter
 public class ManufacturerInput {
 	
-	private String nome;
+	private String name;
 	
 }

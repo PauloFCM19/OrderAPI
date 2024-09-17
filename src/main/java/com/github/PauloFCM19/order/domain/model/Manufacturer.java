@@ -24,7 +24,7 @@ public class Manufacturer {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	@Column(nullable = false)
+	@Column(nullable = true)
 	private String name;
 	
 	@CreationTimestamp
