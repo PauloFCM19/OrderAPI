@@ -1,11 +1,10 @@
-package com.github.PauloFCM19.order.api.assembler;
+package com.github.PauloFCM19.order.api.disassembler;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-
-import com.github.PauloFCM19.order.api.model.ManufacturerInput;
+import com.github.PauloFCM19.order.api.input.ManufacturerInput;
 import com.github.PauloFCM19.order.domain.model.Manufacturer;
 
 @Component

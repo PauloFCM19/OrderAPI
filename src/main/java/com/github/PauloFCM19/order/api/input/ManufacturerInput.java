@@ -1,4 +1,4 @@
-package com.github.PauloFCM19.order.api.model;
+package com.github.PauloFCM19.order.api.input;
 
 import lombok.Getter;
 import lombok.Setter;

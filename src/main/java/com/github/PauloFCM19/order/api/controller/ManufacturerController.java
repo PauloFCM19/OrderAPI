@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.github.PauloFCM19.order.api.assembler.ManufacturerInputDisassembler;
 import com.github.PauloFCM19.order.api.assembler.ManufacturerModelAssembler;
-import com.github.PauloFCM19.order.api.model.ManufacturerInput;
+import com.github.PauloFCM19.order.api.disassembler.ManufacturerInputDisassembler;
+import com.github.PauloFCM19.order.api.input.ManufacturerInput;
 import com.github.PauloFCM19.order.api.model.ManufacturerModel;
 import com.github.PauloFCM19.order.domain.exception.BusinessException;
 import com.github.PauloFCM19.order.domain.exception.ManufacturerNotFindException;

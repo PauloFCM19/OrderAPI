@@ -1,14 +1,12 @@
 package com.github.PauloFCM19.order.api.model;
 
-
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class ManufacturerModel {
+public class StateModel {
 
 	private Long id;
-	private String name;
-	
+	private String Name;
 }
