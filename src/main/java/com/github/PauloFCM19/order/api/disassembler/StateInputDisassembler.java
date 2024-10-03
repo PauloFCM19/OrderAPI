@@ -19,7 +19,7 @@ public class StateInputDisassembler {
 		return modelMapper.map(stateIpute, State.class);
 	}
 	
-	public void copyToDomainObject(StateInput stateIpute, State state) {
-		modelMapper.map(stateIpute, state);
+	public void copyToDomainObject(StateInput stateInput, State state) {
+		modelMapper.map(stateInput, state);
 	}
 }

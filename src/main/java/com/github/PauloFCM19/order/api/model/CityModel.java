@@ -9,6 +9,6 @@ public class CityModel {
 	
 	private Long id;
 	private String name;
-	private StateResumeModel stateResumeModel;
+	private StateModel state;
 
 }
