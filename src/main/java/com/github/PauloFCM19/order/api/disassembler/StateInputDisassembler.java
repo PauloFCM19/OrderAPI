@@ -4,9 +4,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.github.PauloFCM19.order.api.input.ManufacturerInput;
 import com.github.PauloFCM19.order.api.input.StateInput;
-import com.github.PauloFCM19.order.domain.model.Manufacturer;
 import com.github.PauloFCM19.order.domain.model.State;
 
 @Component

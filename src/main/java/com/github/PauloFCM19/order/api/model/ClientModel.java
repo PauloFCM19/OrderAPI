@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class ManufacturerModel {
+public class ClientModel {
 
 	private Long id;
 	private String name;

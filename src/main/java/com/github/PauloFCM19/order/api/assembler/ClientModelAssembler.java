@@ -7,22 +7,22 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.github.PauloFCM19.order.api.model.ManufacturerModel;
-import com.github.PauloFCM19.order.domain.model.Manufacturer;
+import com.github.PauloFCM19.order.api.model.ClientModel;
+import com.github.PauloFCM19.order.domain.model.Client;
 
 @Component
-public class ManufacturerModelAssembler {
+public class ClientModelAssembler {
 	
 		
 		@Autowired
 		private ModelMapper modelMapper;
 		
-		public ManufacturerModel toModel(Manufacturer manufacturer) {
-			return modelMapper.map(manufacturer, ManufacturerModel.class);
+		public ClientModel toModel(Client client) {
+			return modelMapper.map(client, ClientModel.class);
 		}
 		
-		public List<ManufacturerModel> toColletionModel(List<Manufacturer> manufacturers){
-			return manufacturers.stream()
+		public List<ClientModel> toColletionModel(List<Client> clients){
+			return clients.stream()
 					.map(manufacturer -> toModel(manufacturer))
 					.collect(Collectors.toList());
 		}
