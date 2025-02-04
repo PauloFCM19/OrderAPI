@@ -1,6 +1,6 @@
 # Order API
 
-Uma aplicação Spring Boot para gerenciar pedidos.
+Uma aplicação Spring Boot para gerenciar ordens de serviços.
 
 ## 🛠️ Construído com
 
